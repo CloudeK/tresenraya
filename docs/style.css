@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+
+.celda{
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#tablero{
+    margin: 0 auto;
+    width:306px;
+    height: 306px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
